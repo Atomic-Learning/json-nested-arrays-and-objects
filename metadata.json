@@ -1,21 +1,17 @@
 {
-    "title": "",
-    "slug": "",
+    "title": "JSON: Nested Arrays and Objects",
+    "slug": "json-nested-arrays-and-objects",
     "authors": [
-        "",
-        ""
+        "chris-cooling"
     ],
     "tags": [
-        "",
-        ""
+        "json"
     ],
-    "duration": 0,
+    "duration": 2,
     "prerequisites": [
-        "",
-        ""
+        "json-arrays",
+        "json-objects"
     ],
     "related": [
-        "",
-        ""
     ]
 }

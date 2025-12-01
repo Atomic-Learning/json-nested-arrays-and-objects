@@ -1,1 +1,26 @@
+<p>Arrays and objects in JSON can be nested to represent complex data structures. This is done by defining objects or arrays as the data type held by another object or array. For example:</p>
 
+<pre><code class="language-json">[
+    {
+        "name": "Alice",
+        "age": 30,
+        "address": {
+        "street": "123 Main St",
+        "city": "Wonderland"
+        }
+    },
+    {
+        "name": "Bob",
+        "age": 25,
+        "address": {
+        "street": "456 Side St",
+        "city": "Builderland"
+        }
+    }
+]</code></pre>
+
+<p>In this example, we have an array of objects, where each object represents a person with properties like "name", "age", and "address". The "address" property itself is another object containing "street" and "city" properties. This nesting allows for a hierarchical representation of data, making it easier to organize and access related information. There is no limit to the levels of nesting that can be used in JSON, allowing for very complex data structures to be represented.</p>
+
+<p>Within the data structure, different levels of indentation help to visually separate nested elements, making it clearer to understand the relationships between them.</p> 
+    
+<p>When the are several elements of an array or object that represent the same type of data (such as multiple people in the example above), they will often have the same properties and structures. For example, each person in the example above has a name, age and address. This consistency allows for easier parsing and manipulation of the data programmatically, but is not strictly required by the JSON format.</p>
