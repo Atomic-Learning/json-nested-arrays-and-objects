@@ -1,6 +1,7 @@
 {
     "title": "JSON: Nested Arrays and Objects",
     "slug": "json-nested-arrays-and-objects",
+    "description": "A discussion of how to nest arrays and objects in a json file.",
     "authors": [
         "chris-cooling"
     ],
